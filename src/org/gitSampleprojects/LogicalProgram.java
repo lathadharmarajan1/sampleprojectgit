@@ -8,6 +8,8 @@ public static void main(String[] args) {
 		char c = s.charAt(i);
 		Reverse=Reverse+c;
 	}
+	String upperCase = s.toUpperCase();
 	System.out.println(Reverse);
+	System.out.println(upperCase);
 }
 }
